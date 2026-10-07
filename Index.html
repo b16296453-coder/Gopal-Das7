@@ -1,0 +1,77 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shalikha Serbojonin Durga Mondir</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="line-count">
+            <i class="fa-solid fa-users"></i> Online: <span id="online-users">12</span>
+        </div>
+        <div class="header-title">
+            <h1>Shalikha shalikha serbojonin Durga mondir</h1>
+        </div>
+        <div class="fb-icon">
+            <a href="https://www.facebook.com/share/1C4vHcS65b/" target="_blank" rel="noopener noreferrer" title="Facebook Page">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <section class="mahalaya-section">
+            <h2>মহালয়া আসছে</h2>
+            
+            <!-- Dynamic Countdown Timer -->
+            <div id="countdown" class="countdown-timer">
+                <div><span id="days">00</span><p>দিন</p></div>
+                <div><span id="hours">00</span><p>ঘন্টা</p></div>
+                <div><span id="minutes">00</span><p>মিনিট</p></div>
+                <div><span id="seconds">00</span><p>সেকেন্ড</p></div>
+            </div>
+
+            <h3 class="soshthi-text">ষষ্ঠী পুজো আসছে</h3>
+        </section>
+    </main>
+
+    <!-- Floating Dhak Icon (Right Middle) -->
+    <div class="dhak-container" id="dhak-btn" title="ঢাক বাজান">
+        <img src="https://cdn-icons-png.flaticon.com/512/8673/8673819.png" alt="Dhak Logo" class="dhak-logo">
+    </div>
+
+    <!-- Hidden Dhak Audio -->
+    <audio id="dhak-audio" src="dhak(1).mp3"></audio>
+
+    <!-- Bottom Audio Player / Song List Section -->
+    <footer class="song-list-footer">
+        <h3>গান তালিকা (Song List)</h3>
+        <div class="music-player">
+            <div class="song-item">
+                <span>১. প্রথম গান (1.mp3)</span>
+                <audio controls src="1.mp3"></audio>
+            </div>
+            <div class="song-item">
+                <span>২. দ্বিতীয় গান (2.mp3)</span>
+                <audio controls src="2.mp3"></audio>
+            </div>
+        </div>
+        
+        <!-- Credit Text -->
+        <div class="credit">
+            <p>created by ARONNA DAS</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+  </html>
+  
